@@ -1,0 +1,14 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+
+.main {
+	width:600px;
+	margin: auto;
+}
