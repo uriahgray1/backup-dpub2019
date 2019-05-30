@@ -12,9 +12,9 @@ img {
 	width:100%;
 }
 
-* {
+/** {
 	outline:1px solid red;
-}
+}*/
 
 .examples .content {
 	border-radius: 80px;
@@ -39,7 +39,8 @@ img {
 }
 
 .twopage .col {
-
+	height:100vh;
+	overflow:scroll;
 }
 
 .align-bottom {
@@ -59,7 +60,7 @@ img {
 }
 
 .offset-left {
-	
+	margin-left:25%;
 }
 
 .sources a{
