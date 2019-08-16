@@ -1,0 +1,71 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 75px;
+	color:green;
+}
+
+a {
+	color:purple;
+}
+
+/* When you first edit this file, you can delete everything below here. Remember you should use body to target all elements on the page first and then override them later  */
+
+/* EXAMPLE CODE PLEASE REMOVE */
+
+ .title {
+
+ 	font-size:75px;
+ 	text-align:center;
+ 	text-transform: uppercase;
+ 	color:black;
+ }
+
+ .bio {
+ 	padding:20px;
+ 	color:red;
+ 	
+ }
+
+.bio2 {
+ 	padding:20px;
+ 	color:green;
+ 		
+ }
+
+ .bio3 {
+ 	padding:20px;
+ 	color:blue;
+ 	
+ }
+
+  .bio4 {
+ 	padding:20px;
+ 	color:yellow;
+ 		
+ }
+
+ .bio5 {
+ 	padding:20px;
+ 	color:grey;
+
+ }
+
+ .bitmoji {
+ 	margin: auto;
+ 	
+ }
+
+ .bitmoji img {
+ 	width:50%;
+ 	margin: auto;
+ 	display: block;
+ 	padding: 20px;
+ }
+
+ .quote {
+ 	color:black;
+ 	font-size: 20px;
+ 	padding-top: 20px;
+ }
+
+
