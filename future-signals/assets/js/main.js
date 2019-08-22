@@ -5,13 +5,16 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 
+	$(".research-item").click(function(){
+		$(this).toggleClass("large");
+	});
 
 	var hideAll = function() {
     	$('.research-item').addClass('hide');
   	}
 
-	$(".research-item").click(function(){
-		$(this).toggleClass("large");
+	$(".btn-all").click(function(){
+  		$('.research-item').removeClass('hide');
 	});
 
 	$(".btn-tracking").click(function(){
