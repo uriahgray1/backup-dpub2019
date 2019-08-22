@@ -7,43 +7,43 @@ a {
 	color:red;
 }
 
+/* When you first edit this file, you can delete everything below here. Remember you should use body to target all elements on the page first and then override them later  */
+
 .nav {
 	width: 100%;
-	background-color: lightgrey;
+	background-color: lightgray;
 	padding: 10px;
-	box-shadow: 2px 2px 2px grey;
 	position: fixed;
 	top:0px;
 	left:0px;
+	box-shadow: 2px 2px 2px gray;
 }
 
 .nav-item {
 	display: inline-block;
-	padding:5px;
-	border: 1px solid black;
-	border-radius: 10px;
+	border: 1px solid #000;
+	padding: 5px;
+	border-radius: 5px;
 }
 
 .title {
-	font-size: 10.4vw;
-	font-family: Arial Black;
-	color:lightgrey;
-	margin-top:75px;
+	margin-top: 50px;
+	font-size:10.5vw;
+	font-family: arial black;
+	color:lightgray;
 }
 
 .research {
-	display: flex;
+	display:flex;
 	flex-wrap:wrap;
-	align-items:flex-end;
 	padding: 20px;
 }
 
 .research-item {
-	flex: 0 0 25%;
-	padding:20px;
-	font-size:16px;
+	flex:0 0 33.33%;
+	padding: 20px;
 }
 
 .research-item img {
-	width: 100%;
+	width:100%;
 }

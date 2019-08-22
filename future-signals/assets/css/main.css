@@ -1,0 +1,121 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+.nav {
+	width: 100%;
+	background-color: black;
+	padding: 10px;
+	position: fixed;
+	top:0px;
+	left:0px;
+}
+
+.nav-item {
+	display: inline-block;
+	background-color: lime;
+	padding: 5px;
+	margin-bottom:5px;
+	border-radius: 5px;
+	text-decoration: none;
+	color:black;
+	cursor: pointer;
+}
+
+.nav-header {
+	display: inline-block;
+	padding: 5px;
+	margin-bottom: 5px;
+	color:gray;
+}
+
+.title {
+	margin-top: 50px;
+	width: 100%;
+}
+
+.title img {
+	width: 100%;
+}
+
+.research {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.research-item {
+	flex:0 0 33.33%;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.research-item img {
+	width:100%;
+}
+
+.research-item span{
+	font-size:18px;
+	color:gray;
+}
+
+
+.essay {
+	display: flex;
+	flex-wrap:wrap;
+	margin-top: 80px;
+}
+
+.text {
+	flex:0 0 66.66%;
+	padding:10px;
+	font-size:20px;
+}
+
+.text h1 {
+	font-size:40px;
+}
+
+.text p {
+	margin-bottom: 20px;
+}
+
+.figure {
+	flex:0 0 33.33%;
+	padding:10px;
+}
+
+.figure img {
+	width:100%;
+}
+
+.figure span {
+	font-size:18px;
+	color:gray;
+}
+
+
+
+/*Interactive classes*/
+
+.nav-item.active {
+	background-color: red;
+}
+
+.research-item.large {
+	flex:0 0 66.66%;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+
