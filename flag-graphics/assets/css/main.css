@@ -62,3 +62,17 @@ a {
 	font-size:26vw;
 	color:blue;
 }
+
+.world-emoji {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+
+.world-emoji .text {
+	font-size:15vw;
+	color:blue;
+}
