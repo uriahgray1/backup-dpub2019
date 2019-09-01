@@ -1,0 +1,14 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+.fullscreen-blue {
+	width: 100vw;
+	height: 100vh;
+	background-color: blue;
+}
