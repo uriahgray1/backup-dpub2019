@@ -18,3 +18,20 @@ a {
 	height: 100vh;
 	background-color: lime;
 }
+
+.checkers {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.checkers-white {
+	width: 50vw;
+	height: 50vh;
+	background-color: white;
+}
+
+.checkers-black {
+	width: 50vw;
+	height: 50vh;
+	background-color: black;
+}
