@@ -63,16 +63,20 @@ a {
 	color:blue;
 }
 
-.world-emoji {
+.iphone {
 	display: flex;
 	width: 100vw;
 	height: 100vh;
 	justify-content: center;
 	align-items: center;
-	background-color: white;
+	background-color: black;
 }
 
-.world-emoji .text {
-	font-size:15vw;
-	color:blue;
+.iphone .header {
+	color:white;
+}
+
+.iphone .text {
+	font-size:11vw;
+	color:gray;
 }
