@@ -42,9 +42,23 @@ a {
 	height: 100vh;
 	justify-content: center;
 	align-items: center;
-	background-color: yellow
+	background-color: yellow;
 }
 
-.ip {
+.address .text {
 	font-size:12vw;
+}
+
+.world {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+
+.world .text {
+	font-size:26vw;
+	color:blue;
 }
