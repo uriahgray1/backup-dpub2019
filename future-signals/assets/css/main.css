@@ -7,6 +7,11 @@ a {
 	color:red;
 }
 
+img {
+	display: block;
+}
+
+
 
 .nav {
 	width:100%;
@@ -15,8 +20,20 @@ a {
 	bottom:0px;
 	left:0px;
 	padding:5px;
-	z-index: 9;
+	z-index:9;
 }
+
+
+.nav-sub {
+	width:600px;
+	margin:auto;
+	background-color:pink;
+	display:flex;
+	justify-content: space-around;
+}
+
+
+
 
 .nav-header {
 	display: inline-block;
@@ -24,12 +41,31 @@ a {
 }
 
 .nav-item {
-	display:inline-block;
-	padding:5px;
-	background-color:lime;
-	color:black;
-	text-decoration: none;
-	cursor: pointer;
+	width:300px;
+	height:300px;
+	background-color: lightpink;
+	border-radius: 50%;
+	line-height: 300px;
+	text-align: center;
+}
+
+.btn-uncanny {
+	position: fixed;
+	top:50px;
+	left:300px;
+	box-shadow: 0px 0px 100px lightpink;
+}
+
+.btn-vege{
+	position: fixed;
+	bottom:40px;
+	right:100px;
+	box-shadow: 0px 0px 100px lightpink;
+}
+
+
+.nav-item:hover {
+	color:red;
 }
 
 .title {
@@ -46,7 +82,7 @@ a {
 }
 
 .research-item {
-	flex: 0 0 33.333%;
+	flex: 0 0 50%;
 	padding:10px;
 	font-size:16px;
 	color:gray;
@@ -54,22 +90,32 @@ a {
 	cursor: zoom-in;
 }
 
+.width-100 {
+	flex:0 0 100%;
+}
+
+.width-33 {
+	flex:0 0 33.33%;
+}
+
 .research-item img {
 	width:100%;
 }
 
+.research-item:hover img.static {
+	display: none;
+}
+
+.research-item:hover img.rollover {
+	display: block;
+}
+
+img.rollover {
+	display: none;
+}
+
 /*interactive classes*/
 
-.large {
-	flex:0 0 66.666%;
-	transition:2s;
-	cursor: zoom-out;
-}
-
 .hide {
-	filter:blur(100px);
-}
-
-.active {
-	background-color:red;
+	display: none;
 }
