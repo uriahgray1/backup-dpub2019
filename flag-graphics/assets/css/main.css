@@ -80,3 +80,30 @@ a {
 	font-size:11vw;
 	color:gray;
 }
+
+.user {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-color: #2c2c2c;	
+}
+
+.avatar {
+	width: 25vw;
+	height: 25vw;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #aa47bc;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.letter {
+	font-size:15vw;
+	line-height: 17vw;
+	height: 15vw;
+}
