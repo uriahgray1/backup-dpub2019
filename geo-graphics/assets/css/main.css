@@ -1,11 +1,51 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
+	background-color: black;
 }
 
 a {
 	color:red;
 }
+
+
+/* index homepage */
+
+.index-intro {
+	color:white;
+	font-size:16px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 25vh;
+}
+
+.index-row {
+	display: flex;
+	flex-wrap:wrap;
+	border-top: 3px solid white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+	color:gray;
+}
+
+.index-name {
+	flex:0 0 50%;
+}
+
+.index-name a {
+	flex:0 0 25%;
+	text-decoration: none;
+	color:white;
+}
+
+.index-layer {
+	flex:0 0 25%;
+}
+
+
+/* blue green */
 
 .fullscreen-blue {
 	width: 100vw;
@@ -18,6 +58,8 @@ a {
 	height: 100vh;
 	background-color: lime;
 }
+
+/* checkers */
 
 .checkers {
 	display: flex;
@@ -36,6 +78,8 @@ a {
 	background-color: black;
 }
 
+/* ip address */
+
 .address {
 	display: flex;
 	width: 100vw;
@@ -48,6 +92,8 @@ a {
 .address .text {
 	font-size:12vw;
 }
+
+/* world text */
 
 .world {
 	display: flex;
@@ -62,6 +108,8 @@ a {
 	font-size:26vw;
 	color:blue;
 }
+
+/* iPhone */
 
 .iphone {
 	display: flex;
@@ -81,6 +129,8 @@ a {
 	color:gray;
 }
 
+/* User */
+
 .user {
 	display: flex;
 	width: 100vw;
@@ -89,6 +139,7 @@ a {
 	align-items: center;
 	background-color: lightgray;	
 }
+
 
 .avatar {
 	width: 25vw;
@@ -107,3 +158,21 @@ a {
 	line-height: 17vw;
 	height: 15vw;
 }
+
+/*Cloud dots*/
+
+.cloud-container {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	height:100vh;
+	width:100vw;
+}
+
+.cloud-dots {
+	flex:0 0 20%;
+	background-image: linear-gradient(blue, white);
+	height: 25vh;
+	border-radius: 50%;
+}
+

@@ -20,13 +20,13 @@ $(document).ready(function(){
     ];
 
     var urls = [
-    "https://uriahgray1.github.io/flag-graphics/blue.html",
-    "https://uriahgray1.github.io/flag-graphics/green.html",
-    "https://uriahgray1.github.io/flag-graphics/checkers.html",
-    "https://uriahgray1.github.io/flag-graphics/address.html",
-    "https://uriahgray1.github.io/flag-graphics/world.html",
-    "https://uriahgray1.github.io/flag-graphics/iphone.html",
-    "https://uriahgray1.github.io/flag-graphics/user.html"
+    "https://uriahgray1.github.io/geo-graphics/cloud-dots.html",
+    "https://uriahgray1.github.io/geo-graphics/green.html",
+    "https://uriahgray1.github.io/geo-graphics/checkers.html",
+    "https://uriahgray1.github.io/geo-graphics/address.html",
+    "https://uriahgray1.github.io/geo-graphics/world.html",
+    "https://uriahgray1.github.io/geo-graphics/iphone.html",
+    "https://uriahgray1.github.io/geo-graphics/user.html"
     ]
 
     $(".flag").addClass(classes[~~(Math.random()*classes.length)]);
