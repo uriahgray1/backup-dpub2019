@@ -36,10 +36,28 @@ $(document).ready(function(){
     });
 
    setInterval(function() {
-    cache_clear()
-   }, 3000);
+    loadGraphics()
+   }, 5000);
 
    function cache_clear() {
   	window.location.reload(true);
-	}
+    }
+
+    function loadGraphics() {
+    $('.flag').attr('class','flag');
+    $('.flag').css("display","none");
+    $("iframe").each(function(){
+        $(this).attr('src','clean');
+    });
+
+    $(".flag").addClass(classes[~~(Math.random()*classes.length)]);
+    setTimeout(function () {
+    $('.flag').css("display","flex");
+    }, 1000);
+
+    $("iframe").each(function(){
+        $(this).attr('src',urls[~~(Math.random()*urls.length)]); 
+    });
+
+    }
 });
