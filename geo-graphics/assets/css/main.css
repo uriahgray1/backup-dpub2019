@@ -176,3 +176,31 @@ a {
 	border-radius: 50%;
 }
 
+/* Chip */
+
+.chip-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.chip {
+	width:60vh;
+	height:60vh;
+	padding: 5vh;
+	background-color: black;
+	border:1px solid gray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.text {
+	color:gray;
+	font-size:20vh;
+	font-weight: normal;
+	text-align: center;
+}
+
