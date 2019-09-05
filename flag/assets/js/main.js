@@ -26,7 +26,9 @@ $(document).ready(function() {
         "https://uriahgray1.github.io/geo-graphics/world.html",
         "https://uriahgray1.github.io/geo-graphics/iphone.html",
         "https://uriahgray1.github.io/geo-graphics/user.html",
-        "https://uriahgray1.github.io/geo-graphics/chip.html"
+        "https://uriahgray1.github.io/geo-graphics/chip.html",
+        "https://uriahgray1.github.io/geo-graphics/terra-tv.html"
+        "https://uriahgray1.github.io/geo-graphics/morph.html"
     ]
 
     $(".flag").addClass(classes[~~(Math.random() * classes.length)]);

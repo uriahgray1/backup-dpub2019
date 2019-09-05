@@ -197,10 +197,34 @@ a {
 	justify-content: center;
 }
 
-.text {
+.chip .text {
 	color:gray;
 	font-size:20vh;
 	font-weight: normal;
 	text-align: center;
+}
+
+/* Morph */
+
+.morph-container {
+	height: 100vh;
+	width: 100vw;
+}
+
+.morph-container img {
+	width:100%;
+	height:100%;
+}
+
+/*Terra Tv*/
+
+.terra-tv {
+	height: 100vh;
+	width: 100vw;
+}
+
+.terra-tv img {
+	width:100%;
+	height:100%;
 }
 
