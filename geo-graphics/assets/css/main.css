@@ -1,144 +1,109 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
-	background-color: black;
-	color:white;
 }
 
 a {
 	color:red;
 }
 
+/* IP */
 
-/* Index Homepage */
 
-.index-intro {
-	font-size:18px;
-	margin-bottom:25vh;
-	padding: 10px;
-}
 
-.index-row {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 10px;
-	margin-bottom: 5px;
-	margin-top: 5px;
-	border-top: 2px solid white;
-}
-
-.index-name {
-	flex:0 0 50%;
-}
-
-.index-layer {
-	flex:0 0 25%;
-}
-
-.index-tag {
-	flex:0 0 25%;
-}
-
-/*IP Address*/
-
-/*	background-color:blue;
-	background-color:magenta;
-	background-color:cyan;
-	background-color: lightslategray;
-	background-color: yellow;*/
 
 .ip {
-	background-color:lime;
-	height: 100vh;
 	width:100vw;
+	height:100vh;
+	background-color:blue;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content:center;
+	flex-wrap:wrap;
 }
 
 .ip-text {
-	font-size:16vw;
-	text-align: center;
-	color:black;
+	font-size:17vw;
+	color:white;
+	font-family:times;
 }
 
 /* Checkers */
 
 .checkers {
-	display: flex;
+	width:100vw;
+	height:100vh;
+	display:flex;
 	flex-wrap:wrap;
 }
 
-.checkers-white {
-	width:50vw;
-	height:50vh;
-	background-color:white;
-}
-
 .checkers-black {
-	width:50vw;
+	flex:0 0 50%;
 	height:50vh;
-	background-color:black;
+	background-image:radial-gradient(lime, black);
 }
 
-/* Checkers type */
+.checkers-white {
+	flex:0 0 50%;
+	height:50vh;
+	background-image:radial-gradient(lime, black);
+}
+
+/* Checkers Type*/
 
 .checkers-type {
+	width:100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top:0;
+	left:0;
+}
+
+.checkers-text {
+	font-size:20vw;
+	color:lime;
+	padding: 5vw;
+}
+
+/* User */
+
+.user {
 	width:100vw;
 	height:100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	position: fixed;
-	left: 0;
-	top:0;
+	background-color: lightgray;
 }
 
-.checkers-text {
-	font-size:30vw;
-	color:magenta;
-	border:30px solid magenta;
-	padding: 2vw;
-	border-radius: 5vw;
-}
-
-/* Cloud Pattern */
-
-.cloud-pattern {
-	display:flex;
-	flex-wrap:wrap;
-	background-image: linear-gradient(white, bluex);
-}
-
-.cloud-circle {
+.avatar {
 	width:25vw;
-	height:33.33vh;
-	background-image: linear-gradient(blue, white);
-	border-radius: 50%;
-}
-
-.chip-container {
-	width: 100vw;
-	height:100vh;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	background-color: blue;
-}
-
-.chip {
-	width:60vh;
-	height:60vh;
+	height:25vw;
+	background-color:purple;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border:1px solid gray;
-	padding: 5vh;
-	background-color: black;
+	border-radius: 50%;
 }
 
-.text {
-	color:gray;
-	font-size:11vw;
+.letter {
+	color:white;
+	font-size:15vw;
+}
+
+
+/*terra tv*/
+
+.terra-tv {
+	background-color: black;
+	height: 100vh;
+}
+
+.terra-tv img {
+	width:100%;
+	height: 100%;
 }
 

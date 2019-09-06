@@ -19,16 +19,24 @@ $(document).ready(function() {
     ];
 
     var urls = [
-        "https://uriahgray1.github.io/geo-graphics/cloud-dots.html",
-        "https://uriahgray1.github.io/geo-graphics/green.html",
-        "https://uriahgray1.github.io/geo-graphics/checkers.html",
-        "https://uriahgray1.github.io/geo-graphics/address.html",
-        "https://uriahgray1.github.io/geo-graphics/world.html",
-        "https://uriahgray1.github.io/geo-graphics/iphone.html",
-        "https://uriahgray1.github.io/geo-graphics/user.html",
-        "https://uriahgray1.github.io/geo-graphics/chip.html",
-        "https://uriahgray1.github.io/geo-graphics/terra-tv.html",
-        "https://uriahgray1.github.io/geo-graphics/morph.html"
+        "https://uriahgray1.github.io/gg-example/geo-graphics/cloud-dots.html",
+        "https://hannahguyer.github.io/geo-graphics/ip.html",
+        "https://rochelleoh.github.io/geo-graphics/circles.html",
+        "https://taylahsinead.github.io/geo-graphics/checkers-type.html",
+        "https://uriahgray1.github.io/gg-example/geo-graphics/world.html",
+        "https://uriahgray1.github.io/gg-example/geo-graphics/iphone.html",
+        "https://uriahgray1.github.io/gg-example/geo-graphics/user.html",
+        "https://uriahgray1.github.io/gg-example/geo-graphics/green.html",
+        "https://uriahgray1.github.io/gg-example/geo-graphics/blue.html",
+        "https://uriahgray1.github.io/gg-example/geo-graphics/chip.html",
+        "https://uriahgray1.github.io/gg-example/geo-graphics/terra-tv.html",
+        "https://tessstavely.github.io/geo-graphics/ip.html",
+        "https://ferguseaton.github.io/geo-graphics/ip.html",
+        "https://tessstavely.github.io/geo-graphics/checkers.html",
+        "https://tessstavely.github.io/geo-graphics/checkers.html",
+        "https://clazmcg.github.io/geo-graphics/checkers-type",
+        "https://james-highfield.github.io/geo-graphics/circles.html"
+
     ]
 
     $(".flag").addClass(classes[~~(Math.random() * classes.length)]);
