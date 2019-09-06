@@ -2,6 +2,7 @@ body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
 	background-color: black;
+	color:white;
 }
 
 a {
@@ -9,222 +10,135 @@ a {
 }
 
 
-/* index homepage */
+/* Index Homepage */
 
 .index-intro {
-	color:white;
-	font-size:16px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
-	padding-bottom: 25vh;
+	font-size:18px;
+	margin-bottom:25vh;
+	padding: 10px;
 }
 
 .index-row {
 	display: flex;
-	flex-wrap:wrap;
-	border-top: 3px solid white;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	flex-wrap: wrap;
 	padding: 10px;
-	color:gray;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border-top: 2px solid white;
 }
 
 .index-name {
 	flex:0 0 50%;
 }
 
-.index-name a {
-	flex:0 0 25%;
-	text-decoration: none;
-	color:white;
-}
-
 .index-layer {
 	flex:0 0 25%;
 }
 
-
-/* blue green */
-
-.fullscreen-blue {
-	width: 100vw;
-	height: 100vh;
-	background-color: blue;
+.index-tag {
+	flex:0 0 25%;
 }
 
-.fullscreen-green {
-	width: 100vw;
+/*IP Address*/
+
+/*	background-color:blue;
+	background-color:magenta;
+	background-color:cyan;
+	background-color: lightslategray;
+	background-color: yellow;*/
+
+.ip {
+	background-color:lime;
 	height: 100vh;
-	background-color: lime;
+	width:100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-/* checkers */
+.ip-text {
+	font-size:16vw;
+	text-align: center;
+	color:black;
+}
+
+/* Checkers */
 
 .checkers {
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap:wrap;
 }
 
 .checkers-white {
-	width: 50vw;
-	height: 50vh;
-	background-color: white;
+	width:50vw;
+	height:50vh;
+	background-color:white;
 }
 
 .checkers-black {
-	width: 50vw;
-	height: 50vh;
-	background-color: black;
+	width:50vw;
+	height:50vh;
+	background-color:black;
 }
 
-/* ip address */
+/* Checkers type */
 
-.address {
-	display: flex;
-	width: 100vw;
-	height: 100vh;
-	justify-content: center;
-	align-items: center;
-	background-color: yellow;
-}
-
-.address .text {
-	font-size:12vw;
-}
-
-/* world text */
-
-.world {
-	display: flex;
-	width: 100vw;
-	height: 100vh;
-	justify-content: center;
-	align-items: center;
-	background-color: white;
-}
-
-.world .text {
-	font-size:26vw;
-	color:blue;
-}
-
-/* iPhone */
-
-.iphone {
-	display: flex;
-	width: 100vw;
-	height: 100vh;
-	justify-content: center;
-	align-items: center;
-	background-color: black;
-}
-
-.iphone .header {
-	color:white;
-}
-
-.iphone .text {
-	font-size:11vw;
-	color:gray;
-}
-
-/* User */
-
-.user {
-	display: flex;
-	width: 100vw;
-	height: 100vh;
-	justify-content: center;
-	align-items: center;
-	background-color: lightgray;	
-}
-
-
-.avatar {
-	width: 25vw;
-	height: 25vw;
-	border-radius: 50%;
-	color: #fff;
-	background-color: #aa47bc;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.letter {
-	font-size:15vw;
-	line-height: 17vw;
-	height: 15vw;
-}
-
-/*Cloud dots*/
-
-.cloud-container {
-	display: flex;
-	flex-wrap: wrap;
-	background-color: white;
-	height:100vh;
+.checkers-type {
 	width:100vw;
+	height:100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	left: 0;
+	top:0;
 }
 
-.cloud-dots {
-	flex:0 0 20%;
+.checkers-text {
+	font-size:30vw;
+	color:magenta;
+	border:30px solid magenta;
+	padding: 2vw;
+	border-radius: 5vw;
+}
+
+/* Cloud Pattern */
+
+.cloud-pattern {
+	display:flex;
+	flex-wrap:wrap;
+	background-image: linear-gradient(white, bluex);
+}
+
+.cloud-circle {
+	width:25vw;
+	height:33.33vh;
 	background-image: linear-gradient(blue, white);
-	height: 25vh;
 	border-radius: 50%;
 }
-
-/* Chip */
 
 .chip-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
 	width: 100vw;
+	height:100vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background-color: blue;
 }
 
 .chip {
 	width:60vh;
 	height:60vh;
-	padding: 5vh;
-	background-color: black;
-	border:1px solid gray;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	border:1px solid gray;
+	padding: 5vh;
+	background-color: black;
 }
 
-.chip .text {
+.text {
 	color:gray;
-	font-size:20vh;
-	font-weight: normal;
-	text-align: center;
-}
-
-/* Morph */
-
-.morph-container {
-	height: 100vh;
-	width: 100vw;
-}
-
-.morph-container img {
-	width:100%;
-	height:100%;
-}
-
-/*Terra Tv*/
-
-.terra-tv {
-	height: 100vh;
-	width: 100vw;
-}
-
-.terra-tv img {
-	width:100%;
-	height:100%;
+	font-size:11vw;
 }
 

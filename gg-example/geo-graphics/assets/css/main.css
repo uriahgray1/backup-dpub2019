@@ -1,0 +1,274 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color: black;
+}
+
+a {
+	color:red;
+}
+
+
+/* index homepage */
+
+.index-intro {
+	color:white;
+	font-size:16px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 25vh;
+}
+
+.index-row {
+	display: flex;
+	flex-wrap:wrap;
+	border-top: 3px solid white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+	color:gray;
+}
+
+.index-name {
+	flex:0 0 50%;
+}
+
+.index-name a {
+	flex:0 0 25%;
+	text-decoration: none;
+	color:white;
+}
+
+.index-layer {
+	flex:0 0 25%;
+}
+
+
+/* blue green */
+
+.fullscreen-blue {
+	width: 100vw;
+	height: 100vh;
+	background-color: blue;
+}
+
+.fullscreen-green {
+	width: 100vw;
+	height: 100vh;
+	background-color: lime;
+}
+
+/* checkers */
+
+.checkers {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.checkers-white {
+	width: 50vw;
+	height: 50vh;
+	background-color: white;
+}
+
+.checkers-black {
+	width: 50vw;
+	height: 50vh;
+	background-color: black;
+}
+
+/* ip address */
+
+.address {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-color: yellow;
+}
+
+.address .text {
+	font-size:12vw;
+}
+
+/* world text */
+
+.world {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+
+.world .text {
+	font-size:26vw;
+	color:blue;
+}
+
+/* iPhone */
+
+.iphone {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+
+.iphone .header {
+	color:white;
+}
+
+.iphone .text {
+	font-size:11vw;
+	color:gray;
+}
+
+/* User */
+
+.user {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-color: lightgray;	
+}
+
+
+.avatar {
+	width: 25vw;
+	height: 25vw;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #aa47bc;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.letter {
+	font-size:15vw;
+	line-height: 17vw;
+	height: 15vw;
+}
+
+/*Cloud dots*/
+
+.cloud-container {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	height:100vh;
+	width:100vw;
+}
+
+.cloud-dots {
+	flex:0 0 20%;
+	background-image: linear-gradient(blue, white);
+	height: 25vh;
+	border-radius: 50%;
+}
+
+/* Chip */
+
+.chip-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.chip {
+	width:60vh;
+	height:60vh;
+	padding: 5vh;
+	background-color: black;
+	border:1px solid gray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.chip .text {
+	color:gray;
+	font-size:20vh;
+	font-weight: normal;
+	text-align: center;
+}
+
+/* Morph */
+
+.morph-container {
+	height: 100vh;
+	width: 100vw;
+}
+
+.morph-container img {
+	width:100%;
+	height:100%;
+}
+
+/*Terra Tv*/
+
+.terra-tv {
+	height: 100vh;
+	width: 100vw;
+}
+
+.terra-tv img {
+	width:100%;
+	height:100%;
+}
+
+/* USB */
+
+.usb-container {
+
+}
+
+.usb-title {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top:0px;
+	left:0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.usb-title .text {
+	color:lime;
+	font-size: 30vw;
+	border:3px solid lime;
+	border-radius: 50%;
+	padding: 23vh;
+}
+
+.usb-container svg {
+	fill: lime;
+	stroke-width: 8;
+    stroke: red;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    /*animation: usbcolor 1s infinite alternate;*/
+}
+
+@keyframes usbcolor {
+  from {
+  	fill:lime;
+  }
+  to {
+  	fill:red;
+  }
+}
+
+
