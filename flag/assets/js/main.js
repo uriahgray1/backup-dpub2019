@@ -20,6 +20,17 @@ $(document).ready(function() {
 
     var urls = [
         "https://uriahgray1.github.io/geo-graphics/gafa.html",
+        "https://james-highfield.github.io/geo-graphics/flux.html",
+        "https://james-highfield.github.io/geo-graphics/pin.html",
+        "https://james-highfield.github.io/geo-graphics/blur.html",
+        "https://gabbyparish.github.io/geo-graphics/stamp.html",
+        "https://gabbyparish.github.io/geo-graphics/documents.html",
+        "https://gabbyparish.github.io/geo-graphics/barcode.html",
+        "https://shiyayuan.github.io/geo-graphics/earth-layers.html",
+        "https://maryherten.github.io/geo-graphics/barcode",
+        "https://maryherten.github.io/geo-graphics/networksniffing",
+        "https://maryherten.github.io/geo-graphics/hotspot",
+        "https://uriahgray1.github.io/geo-graphics/map2.html",
         "https://uriahgray1.github.io/geo-graphics/checkers-type.html",
         "https://ameliaclark.github.io/geo-graphics/checkers-type.html",
         "http://naomi-etheridge.github.io/geo-graphics/checkers-type.html",
