@@ -40,13 +40,19 @@ a {
 .checkers-black {
 	flex:0 0 50%;
 	height:50vh;
-	background-image:radial-gradient(lime, black);
+	background-image:linear-gradient(#4ccdff, #fff, #fff4a4, #f7e545, #635e3e);
 }
 
 .checkers-white {
 	flex:0 0 50%;
 	height:50vh;
-	background-image:radial-gradient(lime, black);
+	background-color: #4ccdff;
+}
+
+.checkers-white2 {
+	flex:0 0 50%;
+	height:50vh;
+	background-color: #635e3e;
 }
 
 /* Checkers Type*/
@@ -105,5 +111,217 @@ a {
 .terra-tv img {
 	width:100%;
 	height: 100%;
+}
+
+/*map*/
+
+.map {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.map-left {
+	width:50%;
+	height: 100vh;
+	background-color: yellow;
+}
+
+.map-left img{
+	
+	width:100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.map-right {
+	width:50%;
+	height: 100vh;
+	background-color: lime;
+	font-size: 10vw;
+	overflow: hidden;
+}
+
+/*gafa*/
+
+.gafa {
+    font-size: 37vh;
+    width: 100vh;
+    background-color: red;
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+    position: absolute;
+    bottom: 0px;
+    left: 37vh;
+}
+
+.gafa-grid {
+	background-color: red;
+	width: 100%;
+	margin-left: 18.5vh;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.gafa-line {
+	width:50%;
+	height: 50vh;
+	border:1px solid #000;
+}
+
+/*captcha*/
+
+.captcha {
+	width:100%;
+	height:100vh;
+	background-color: #000;
+}
+
+.captcha img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	background-color: #000;
+}
+
+.robot {
+	position: absolute;
+	top:0px;
+	left:0px;
+	display: flex;
+	width:100%;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.robot-text {
+	
+	border-radius: 100px;
+	font-size: 8vw;
+	color:gray;
+	box-shadow: 0px 0px 20px gray;
+	padding: 28px;
+	text-align: center;
+}
+
+/*hemisphere*/
+
+.hemisphere {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.hemisphere-circle {
+	width: 50%;
+	height: 100vh;
+	background-color: gray;
+}
+
+.hemisphere-circle img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	animation: rotate 2s linear infinite ;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*blocks rgb*/
+
+.blocks {
+	display: flex;
+	background: green;
+}
+
+.blocks div {
+	border-radius: 200px;
+}
+
+.blocks-rgb {
+	display: flex;
+	flex-wrap:wrap;
+	width:75%;
+	height:100vh;
+}
+
+.blocks-red {
+	background-color: red;
+	height: 50%;
+	width:50%;
+}
+
+.blocks-blue {
+	background-color: blue;
+	height: 50%;
+	width:50%;
+}
+
+.blocks-green {
+	background-color: lime;
+	height: 50%;
+	width:50%;
+}
+
+.blocks-black {
+	background-color: black;
+	height: 50%;
+	width:50%;
+}
+
+.blocks-grays {
+	width:25%;
+}
+
+.blocks-gray1 {
+	height:25%;
+	background-color: #000;
+}
+.blocks-gray2 {
+	height:25%;
+	background-color: #333;
+}
+.blocks-gray3 {
+	height:25%;
+	background-color: #999;
+}
+.blocks-gray4 {
+	height:25%;
+	background-color: #eee;
+}
+
+/*sky earth*/
+
+.sky-earth {
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	color:white;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+.sky-text {
+	font-size:18vw;
+	text-align: center;
+	width: 100%;
+	color:blue;
+}
+
+.earth-text {
+	font-size:18vw;
+	text-align: center;
+	width: 100%;
+	transform: rotate(180deg);
+	color:lime;
 }
 

@@ -19,23 +19,29 @@ $(document).ready(function() {
     ];
 
     var urls = [
-        "https://uriahgray1.github.io/gg-example/geo-graphics/cloud-dots.html",
-        "https://hannahguyer.github.io/geo-graphics/ip.html",
+        "http://uriahgray1.github.io/geo-graphics/ip.html",
+        "https://uriahgray1.github.io/geo-graphics/checkers.html",
         "https://rochelleoh.github.io/geo-graphics/circles.html",
-        "https://taylahsinead.github.io/geo-graphics/checkers-type.html",
+        "https://ameliaclark.github.io/geo-graphics/checkers-type.html",
+        "http://naomi-etheridge.github.io/geo-graphics/checkers-type.html",
         "https://uriahgray1.github.io/gg-example/geo-graphics/world.html",
-        "https://uriahgray1.github.io/gg-example/geo-graphics/iphone.html",
-        "https://uriahgray1.github.io/gg-example/geo-graphics/user.html",
-        "https://uriahgray1.github.io/gg-example/geo-graphics/green.html",
-        "https://uriahgray1.github.io/gg-example/geo-graphics/blue.html",
         "https://uriahgray1.github.io/gg-example/geo-graphics/chip.html",
-        "https://uriahgray1.github.io/gg-example/geo-graphics/terra-tv.html",
-        "https://tessstavely.github.io/geo-graphics/ip.html",
-        "https://ferguseaton.github.io/geo-graphics/ip.html",
-        "https://tessstavely.github.io/geo-graphics/checkers.html",
-        "https://tessstavely.github.io/geo-graphics/checkers.html",
-        "https://clazmcg.github.io/geo-graphics/checkers-type",
-        "https://james-highfield.github.io/geo-graphics/circles.html"
+        "https://uriahgray1.github.io/gg-example/geo-graphics/iphone.html",
+        "http://naomi-etheridge.github.io/geo-graphics/user.html",
+        "https://sarahnbourke.github.io/Geographics/IP.html",
+        "https://saml2897.github.io/geo-graphics/ip.html",
+        "https://melike-yucel.github.io/geo-graphics/user.html",
+        "https://melike-yucel.github.io/geo-graphics/ip.html",
+        "https://melike-yucel.github.io/geo-graphics/checkers.html",
+        "https://saml2897.github.io/geo-graphics/checkers.html",
+        "https://nicolechin.github.io/starter-kit-v1.09/checkers.html",
+        "https://james-highfield.github.io/geo-graphics/circles.html",
+        "https://taylahsinead.github.io/geo-graphics/checkers-type.html",
+        "https://rochelleoh.github.io/geo-graphics/circles.html",
+        "https://gabbyparish.github.io/geo-graphics/checkers-type.html",
+        "https://bingyu-zhou.github.io/Geo-graphics/circles.html",
+        "https://linachan98.github.io/geo-graphics/circles.html ",
+        "https://uriahgray1.github.io/gg-example/geo-graphics/blue.html"
 
     ]
 
