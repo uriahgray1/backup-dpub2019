@@ -195,3 +195,14 @@ iframe {
 	display: none;
 }
 
+.urls {
+	position: fixed;
+	bottom:0;
+	left:0;
+	background-color:#000;
+	color:#fff;
+	font-size:16px;
+	height:48px;
+	overflow:scroll;
+}
+
