@@ -23,7 +23,7 @@ $(document).ready(function() {
         "https://gabbyparish.github.io/geo-graphics/netflix.html",
         "https://gabbyparish.github.io/geo-graphics/notifs.html",
         "https://gabbyparish.github.io/geo-graphics/big4.html",
-        "https://dpub.bailouni.com/geo-graphics/captchas.html"
+        "https://dpub.bailouni.com/geo-graphics/captchas.html",
         "https://uriahgray1.github.io/geo-graphics/gafa.html",
         "https://james-highfield.github.io/geo-graphics/flux.html",
         "https://james-highfield.github.io/geo-graphics/pin.html",
