@@ -19,6 +19,11 @@ $(document).ready(function() {
     ];
 
     var urls = [
+        "https://james-highfield.github.io/geo-graphics/triangle.html",
+        "https://gabbyparish.github.io/geo-graphics/netflix.html",
+        "https://gabbyparish.github.io/geo-graphics/notifs.html",
+        "https://gabbyparish.github.io/geo-graphics/big4.html",
+        "https://dpub.bailouni.com/geo-graphics/captchas.html"
         "https://uriahgray1.github.io/geo-graphics/gafa.html",
         "https://james-highfield.github.io/geo-graphics/flux.html",
         "https://james-highfield.github.io/geo-graphics/pin.html",
@@ -33,9 +38,9 @@ $(document).ready(function() {
         "ameliaclark.github.io/geo-graphics/elevator.html",
         "https://ameliaclark.github.io/geo-graphics/find-myself.html",
         "https://reginerocero.github.io/pr2-geo-graphics/aroundtheglobe.html",
-        "naomi-etheridge.github.io/geo-graphics-work/404.html",
-        "naomi-etheridge.github.io/geo-graphics-work/speaker.html",
-        "naomi-etheridge.github.io/geo-graphics-work/xeno.html",
+        "https://naomi-etheridge.github.io/geo-graphics-work/404.html",
+        "https://naomi-etheridge.github.io/geo-graphics-work/speaker.html",
+        "https://naomi-etheridge.github.io/geo-graphics-work/xeno.html",
         "https://uriahgray1.github.io/geo-graphics/map2.html",
         "https://uriahgray1.github.io/geo-graphics/checkers-type.html",
         "https://ameliaclark.github.io/geo-graphics/checkers-type.html",
