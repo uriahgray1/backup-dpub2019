@@ -19,6 +19,9 @@ $(document).ready(function() {
     ];
 
     var urls = [
+        "https://hannahguyer.github.io/geo-flags/smiley.html",
+        "https://hannahguyer.github.io/geo-flags/smiley.html",
+        "https://hannahguyer.github.io/geo-flags/smiley.html",
         "https://james-highfield.github.io/geo-graphics/triangle.html",
         "https://gabbyparish.github.io/geo-graphics/netflix.html",
         "https://gabbyparish.github.io/geo-graphics/notifs.html",
