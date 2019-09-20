@@ -21,6 +21,10 @@ $(document).ready(function() {
     var urls = [
         "https://hannahguyer.github.io/geo-flags/smiley.html",
         "https://rchprk/geo-graphics/cctv.html",
+        "https://gabbyparish.github.io/geo-graphics/clouds.html",
+        "https://gabbyparish.github.io/geo-graphics/cd.html",
+        "https://gabbyparish.github.io/geo-graphics/chip.html",
+        "https://gabbyparish.github.io/geo-graphics/404-error.html",
         "https://rchprk/geo-graphics/cityscape-animate.html",
         "https://rchprk/geo-graphics/ping.html",
         "https://rchprk/geo-graphics/like.html",
