@@ -19,8 +19,10 @@ $(document).ready(function() {
     ];
 
     var urls = [
+        "https://oliviawolbers.github.io/geo-graphics/like-button.html",
+        "https://oliviawolbers.github.io/geo-graphics/surveillance.html",
+        "https://oliviawolbers.github.io/geo-graphics/refresh.html",
         "https://hannahguyer.github.io/geo-flags/smiley.html",
-        "https://rchprk.github.io/geo-graphics/cctv.html",
         "https://Shiyayuan.github.io/geo-graphics/404.html",
         "https://Shiyayuan.github.io/geo-graphics/alien.html",
         "https://Shiyayuan.github.io/geo-graphics/circles.html",
@@ -49,12 +51,6 @@ $(document).ready(function() {
         "https://gabbyparish.github.io/geo-graphics/cd.html",
         "https://gabbyparish.github.io/geo-graphics/chip.html",
         "https://gabbyparish.github.io/geo-graphics/404-error.html",
-        "https://rchprk.github.io/geo-graphics/cityscape-animate.html",
-        "https://rchprk.github.io/geo-graphics/ping.html",
-        "https://rchprk.github.io/geo-graphics/like.html",
-        "https://rchprk.github.io/geo-graphics/blurred-circles.html",
-        "https://rchprk.github.io/geo-graphics/blurred-circles.html",
-        "https://rchprk.github.io/geo-graphics/blurred-circles.html",
         "https://hannahguyer.github.io/geo-flags/smiley.html",
         "https://hannahguyer.github.io/geo-flags/smiley.html",
         "https://james-highfield.github.io/geo-graphics/triangle.html",
@@ -73,7 +69,7 @@ $(document).ready(function() {
         "https://maryherten.github.io/geo-graphics/barcode",
         "https://maryherten.github.io/geo-graphics/networksniffing",
         "https://maryherten.github.io/geo-graphics/hotspot",
-        "ameliaclark.github.io/geo-graphics/elevator.html",
+        "https://ameliaclark.github.io/geo-graphics/elevator.html",
         "https://ameliaclark.github.io/geo-graphics/find-myself.html",
         "https://reginerocero.github.io/pr2-geo-graphics/aroundtheglobe.html",
         "https://naomi-etheridge.github.io/geo-graphics-work/404.html",
@@ -86,7 +82,12 @@ $(document).ready(function() {
         "https://uriahgray1.github.io/gg-example/geo-graphics/world.html",
         "https://uriahgray1.github.io/gg-example/geo-graphics/chip.html",
         "https://uriahgray1.github.io/gg-example/geo-graphics/iphone.html",
-        "http://naomi-etheridge.github.io/geo-graphics/user.html",
+        "https://uriahgray1.github.io/r-geo-graphics/blurred-circles.html",
+        "https://uriahgray1.github.io/r-geo-graphics/cctv.html",
+        "https://uriahgray1.github.io/r-geo-graphics/cityscape-animate.html",
+        "https://uriahgray1.github.io/r-geo-graphics/chip.html",
+        "https://uriahgray1.github.io/r-geo-graphics/like.html",
+        "https://uriahgray1.github.io/r-geo-graphics/ip.html",
         "https://sarahnbourke.github.io/Geographics/IP.html",
         "https://saml2897.github.io/geo-graphics/ip.html",
         "https://melike-yucel.github.io/geo-graphics/user.html",
@@ -113,7 +114,7 @@ $(document).ready(function() {
 
     setInterval(function() {
         loadGraphics()
-    }, 5000);
+    }, 8000);
 
     function loadGraphics() {
         $('.flag').attr('class', 'flag');

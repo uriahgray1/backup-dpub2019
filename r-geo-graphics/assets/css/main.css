@@ -1,0 +1,546 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color: black;
+	color: white;
+}
+
+a {
+	color:red;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-    Index Homepage    -=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.index-intro {
+	font-size: 18px;
+	margin-bottom: 25vh;
+	padding: 10px;
+
+}
+
+.index-row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	margin-bottom: 5px;	margin-top: 5px;
+	border-top: 2px solid white;
+}
+
+.index-name {
+	flex: 0 0 50%;
+}
+
+.index-layer {
+	flex: 0 0 25%;
+
+}
+
+.index-tag {
+	flex: 0 0 25%;
+
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-    IP ADDRESS    -=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.ip {
+	background-color: cyan;
+	color: blue;
+	height: 100vh;
+	width: 100vw;
+
+	/*Center aligning:*/
+	display: flex;
+	align-items: center; /*aligned vertically*/
+	justify-content: center; /*aligned horizontally*/
+}
+
+.ip-text {
+	font-size: 14vw;
+	text-align: center;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-    CHECKERS    -=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.checkers {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.checkers-white {
+	width: 50vw;
+	height: 50vh;
+	background-color: white;
+}
+
+.checkers-black {
+	width: 50vw;
+	height: 50vh;
+	background-color: black;
+
+}
+
+/*checkers type*/
+
+.checkers-type {
+	width: 100vw;
+	height: 100vh;
+	display: flex;	align-items: center;	justify-content: center;
+	position: fixed; left: 0; top: 0; /*places type on top*/
+
+}
+
+.checkers-text {
+	font-size: 50vh;
+	color: cyan;
+
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-    CLOUD PATTERN    -=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.cloud-pattern {
+	display: flex;
+	flex-wrap: wrap;
+	background-image: linear-gradient(white, cyan, white, cyan, white, cyan, white, cyan);
+}
+
+.cloud-circle {
+	width: 25vw;
+	height: 25vw;
+	background-image: linear-gradient(cyan, white);
+	border-radius: 50%;
+}
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-    CHIP    -=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.chip-container {
+	width: 100vw;
+	height: 100vh;
+	/*Center aligning:*/
+	display: flex;
+	align-items: center; /*aligned vertically*/
+	justify-content: center; /*aligned horizontally*/
+
+	background-color: blue;
+}
+
+.chip {
+	width: 60vh;
+	height: 60vh;
+	display: flex;	align-items: center;	justify-content: center;
+	border: 1px solid gray;
+	padding:1vh;
+	background-color: black;
+
+
+}
+
+.text {
+	font-size: 10vw;
+	color: gray;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-    SMILEY    -=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.smiley-group {
+	display: flex;
+	flex-wrap: wrap;
+	background-image: linear-gradient(white, red, white, red, white, red, white, red);
+}
+.smiley {
+	font-size: 20vw;
+	line-height 100%;
+	padding-right: 20px;
+	color: black;
+}
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-    LINES    -=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.line-group {
+	background-color: black;
+	width: 100vw;
+
+	/*Center aligning:*/
+	display: flex;
+	justify-content: center; /*aligned horizontally*/
+}
+
+
+.line-group div {
+	margin: 3px;
+	border-radius: 50px;
+	height: 11.5vh;
+	background-image: linear-gradient(to right, purple, white, lime, blue, white, purple);
+	}
+
+.line1 {width: 50vw;}
+.line2 {width: 70vw;}
+.line3 {width: 55vw;}
+.line4 {width: 90vw;}
+.line5 {width: 80vw;}
+.line6 {width: 60vw;}
+.line7 {width: 80vw;}
+.line8 {width: 65vw;}
+
+.line1a {width: 50vw;}
+.line2a {width: 30vw;}
+.line3a {width: 90vw;}
+.line4a {width: 70vw;}
+.line5a {width: 60vw;}
+.line6a {width: 40vw;}
+.line7a {width: 30vw;}
+.line8a {width: 20vw;}
+
+.line-group-animate div {
+	animation: line-group 2s infinite linear alternate;
+
+}
+
+@keyframes line-group {
+
+	0% {
+		background-position: 0 0;
+	}
+
+	100% {
+		background-position: 100px 0;
+	}
+
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-    UNDERGROUND    -=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.line-group {
+	width: 100vw;
+	display: flex;
+}
+
+.sky {
+	background-image: linear-gradient(aqua, white, cyan);
+	height: 20vh;
+}
+
+.grass {
+	background-image: linear-gradient(cyan, green, green, green);
+	height: 5vh;
+}
+
+.dirt {
+	background-image: linear-gradient(SaddleBrown , black);
+	height: 1vh;
+}
+
+.underground {
+	background-image: linear-gradient(to bottom right, black, black, sienna, SaddleBrown );
+	height: 74vh;
+}
+
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-    PING    -=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.ping-bg {
+	width: 100vw;
+	height: 100vh;
+	background-image: radial-gradient(PowderBlue 7%, white 17%, PowderBlue 25%, white 37%, PowderBlue 39%, white 45%, PowderBlue 50%, white 55%, PowderBlue 80%, white 98%);
+	border-style: solid;
+  	border-width: 10px;
+	border-color: PowderBlue;
+}
+
+
+.ping-type {
+	width: 100vw;
+	height: 100vh;
+	display: flex;	align-items: center;	justify-content: center;
+	position: fixed; left: 0; top: 0; /*places type on top*/
+}
+
+.ping-text {
+	font-size: 20vh;
+	color: PowderBlue;
+	transform:scale(3,0.5);
+}
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-    TWO SIDES    -=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.two-sides {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.side-left {
+	width: 50vw;
+	height: 100vh;
+	padding:10px;
+	background-color: white;
+
+}
+
+.side-right {
+	width: 50vw;
+	height: 100vh;
+	padding:10px;
+	background-color: green;
+}
+
+.left-box {
+	height: auto;
+	font-size: 8vw;
+	background-image: linear-gradient(to right,red, white, orange, darkorange, white, red);
+}
+
+.right-box {
+
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-    BLURRED CIRCLES    -=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.blurred-group {
+	background-color: Aquamarine;
+	height: 100vh;
+}
+
+.blurred-circle1 {
+	position: fixed;
+	left: 10%;
+	top: 40%;
+
+	width: 20vw;
+	height: 20vw;
+	background-color: yellow;
+	box-shadow: 0px 0px 60px 60px yellow;
+
+	border-radius: 50%;
+}
+
+.blurred-circle2 {
+	position: fixed;
+	left: 90%;
+	top: 10%;
+
+	width: 30vw;
+	height: 30vw;
+	background-color: yellow;
+	box-shadow: 0px 0px 60px 60px yellow;
+
+	border-radius: 50%;
+}
+
+.blurred-circle3 {
+	position: fixed;
+	left: 10%;
+	top: 20%;
+
+	width: 10vw;
+	height: 10vw;
+	background-color: Chartreuse;
+	box-shadow: 0px 0px 60px 60px Chartreuse;
+
+	border-radius: 50%;
+}
+
+.blurred-circle4 {
+	position: fixed;
+	left: 50%;
+	top: 30%;
+
+	width: 30vw;
+	height: 30vw;
+	background-color: yellow;
+	box-shadow: 0px 0px 60px 60px yellow;
+
+	border-radius: 50%;
+}
+
+.blurred-circle5 {
+	position: fixed;
+	left: 26%;
+	top: -30%;
+
+	width: 30vw;
+	height: 30vw;
+	background-color: yellow;
+	box-shadow: 0px 0px 60px 60px yellow;
+
+	border-radius: 50%;
+}
+
+.blurred-circle6 {
+	position: fixed;
+	left: 50%;
+	top: 60%;
+
+	width: 3vw;
+	height: 7vw;
+	background-color: DodgerBlue;
+	box-shadow: 0px 0px 60px 60px DodgerBlue;
+
+	border-radius: 50%;
+}
+
+.blurred-circle7 {
+	position: fixed;
+	right: 10%;
+	top: 10%;
+
+	width: 1vw;
+	height: 0.1vw;
+	background-color: red;
+	box-shadow: 0px 0px 60px 60px red;
+
+	border-radius: 50%;
+}
+
+.blurred-circle8 {
+	position: fixed;
+	right: 20%;
+	top: 10%;
+
+	width: 1vw;
+	height: 6vw;
+	background-color: gold;
+	box-shadow: 0px 0px 60px 60px gold;
+
+	border-radius: 50%;
+}
+
+.blurred-circle9 {
+	position: fixed;
+	left: 40%;
+	bottom: 5%;
+
+	width: 1vw;
+	height: 15vw;
+	background-color: orange;
+	box-shadow: 0px 0px 60px 60px orange;
+
+	border-radius: 50%;
+}
+
+.blurred-circle10 {
+	position: fixed;
+	right: 10%;
+	bottom: 10%;
+
+	width: 6vw;
+	height: 7vw;
+	background-color: DodgerBlue;
+	box-shadow: 0px 0px 60px 60px DodgerBlue;
+
+	border-radius: 50%;
+}
+
+.blurred-text {
+	font-size: 25pt;
+	font-family: serif;
+	font-style: italic;
+	color: transparent;
+	text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+
+
+	padding: 10px;
+	transform:translateX(100%);
+	transform: scale(2,1);
+
+	animation: blurredtext 10s linear infinite;
+
+}
+
+@keyframes blurredtext {
+	 0%   {
+	 transform: translateX(100%);
+	 }
+	 100% {
+	 transform: translateX(-100%);
+	 }
+	}
+
+
+
+
+/*Aquamarine Chartreuse Gold Orange DodgerBlue*/
+
+
+
+.blurred-circles div {
+	animation: blurred-circles 2.5s infinite linear;
+}
+
+@keyframes blurred-circles {
+	0% {
+		filter: saturate(0.5);
+	}
+
+	100% {
+		filter: saturate(2.5);
+	}
+
+}
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-    CCTV    -=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.cctv-group {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cctv {
+	width: 33.33vw;
+	height: 33.33vh;
+	background-color: white;
+
+	border-style: solid; border-width: 1px; border-color: black;
+}
+
+
+.cctv1 {
+	background-image:  linear-gradient(#f6c232 0%, #be540a 15%, #005469 50%, #0b2936 75%, #181a27 100%);
+	height: 100%;
+}
+
+.cctv2 {
+	background-image: radial-gradient(at top left, yellow, yellow, yellow, yellow, yellow, gold, peachpuff, lightblue, lightblue, lightblue, lightblue, lightblue, lightblue, lightblue);
+	height: 100%;
+}
+
+.cctv span{
+	background-color: black;
+	color: white;
+	font-size: 1vw;
+	margin-top: 0px;
+	float: left;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-    like    -=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.like-group {
+	background-color: blue;
+	height: 100vh;
+	width: 100vw;
+}
+
+.like {
+  	width:100vw;
+  	color:grey;
+  	font-family: serif;
+  	font-style: italic;
+  	font-size: 100vh;
+	transform:translateX(100%) scale(3,1);
+
+	animation: like 3s linear infinite;
+
+}
+
+@keyframes like {
+	 0%   {
+	 transform: translateX(100%) scale(3,1);
+	 }
+	 100% {
+	 transform: translateX(-100%) scale(3,1);
+	 }
+	}
