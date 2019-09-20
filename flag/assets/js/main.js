@@ -19,10 +19,12 @@ $(document).ready(function() {
     ];
 
     var urls = [
-        "https://melike-yucel.github.io/geo-graphics/widget.html",
+        "https://melike-yucel.github.io/geo-graphics/widget1.html",
+        "https://melike-yucel.github.io/geo-graphics/boron.html",
+        "https://melike-yucel.github.io/geo-graphics/boron.html",
         "https://melike-yucel.github.io/geo-graphics/checkers-type.html",
-        "https://melike-yucel.github.io/geo-graphics/widget.html",
-        "https://melike-yucel.github.io/geo-graphics/widget.html",
+        "https://melike-yucel.github.io/geo-graphics/widget1.html",
+        "https://melike-yucel.github.io/geo-graphics/widget1.html",
         "https://oliviawolbers.github.io/geo-graphics/like-button.html",
         "https://oliviawolbers.github.io/geo-graphics/surveillance.html",
         "https://oliviawolbers.github.io/geo-graphics/refresh.html",
