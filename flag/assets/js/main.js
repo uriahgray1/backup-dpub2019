@@ -20,6 +20,13 @@ $(document).ready(function() {
 
     var urls = [
         "https://hannahguyer.github.io/geo-flags/smiley.html",
+        "rchprk/geo-graphics/cctv.html",
+        "rchprk/geo-graphics/cityscape-animate.html",
+        "rchprk/geo-graphics/ping.html",
+        "rchprk/geo-graphics/like.html",
+        "rchprk/geo-graphics/blurred-circles.html",
+        "rchprk/geo-graphics/blurred-circles.html",
+        "rchprk/geo-graphics/blurred-circles.html",
         "https://hannahguyer.github.io/geo-flags/smiley.html",
         "https://hannahguyer.github.io/geo-flags/smiley.html",
         "https://james-highfield.github.io/geo-graphics/triangle.html",
