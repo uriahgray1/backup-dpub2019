@@ -381,3 +381,45 @@ a {
 	color:lime;
 }
 
+/*heat*/
+
+.box-sw {
+  height:100vh;
+  width:100%;
+  background-color:green;
+  display:flex;
+}
+
+.sand {
+  flex:1 1;
+  height:100vh;
+  background-color:yellow;
+}
+
+.sand img {
+  width:100%;
+  height:100%;
+  object-fit:fill;
+}
+
+.water {
+  flex: 0 0 25%;
+  height:100vh;
+  background-color:lime;
+  animation-name:water;
+  animation-duration:10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes water {
+  0% {
+    flex:0 0 0%;
+  }
+  
+  100% {
+    flex:0 0 100%;    
+  }
+}
+

@@ -80,6 +80,8 @@ $(document).ready(function() {
         "https://naomi-etheridge.github.io/geo-graphics-work/speaker.html",
         "https://naomi-etheridge.github.io/geo-graphics-work/xeno.html",
         "https://uriahgray1.github.io/geo-graphics/map2.html",
+        "https://sarahnbourke.github.io/Geographics/user.html",
+        "https://sarahnbourke.github.io/Geographics/Checklist.html",
         "https://uriahgray1.github.io/geo-graphics/checkers-type.html",
         "https://ameliaclark.github.io/geo-graphics/checkers-type.html",
         "https://uriahgray1.github.io/gg-example/geo-graphics/world.html",
