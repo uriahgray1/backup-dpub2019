@@ -1,0 +1,208 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color: black;
+}
+
+a {
+	color:red;
+}
+
+iframe {
+	border:1px solid red;
+	background-color: black;
+}
+
+
+.flag {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.flag.bi-hori iframe {
+	flex:0 0 100%;
+	height: 50vh;
+}
+
+.flag.bi-hori .frame-4, .flag.bi-hori .frame-3 {
+	display: none;
+}
+
+.flag.bi-vert iframe {
+	flex:0 0 50vw;
+	height: 100vh;
+}
+
+.flag.bi-vert .frame-4, .flag.bi-vert .frame-3 {
+	display: none;
+}
+
+.flag.tri-hori iframe {
+	flex:0 0 100%;
+	height: 33.333vh;
+}
+
+.flag.tri-hori .frame-4 {
+	display: none;
+}
+
+.flag.tri-vert iframe {
+	flex:0 0 33.333vw;
+	height: 100vh;
+}
+
+.flag.tri-vert .frame-4 {
+	display: none;
+}
+
+.flag.tri-vert2 iframe {
+	flex:0 0 50vw;
+	height: 50vh;
+}
+
+.flag.tri-vert2 .frame-2 {
+	height: 100vh;
+}
+
+.flag.tri-vert2 .frame-3 {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 50vw;
+	height: 50vh;
+}
+
+.flag.tri-vert3 iframe {
+	flex:0 0 50vw;
+	height: 50vh;
+}
+
+.flag.tri-vert3 .frame-1 {
+	height: 100vh;
+}
+
+.flag.tri-vert3 .frame-3 {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 50vw;
+	height: 50vh;
+}
+
+.flag.tri-vert3 .frame-4 {
+	display: none;
+}
+
+.flag.quart iframe {
+	flex:0 0 50vw;
+	height: 50vh;
+}
+
+
+.flag.canton .frame-1 {
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 33.33vw;
+	height:50vh;
+	z-index: 2;
+	display: block;
+}
+
+.flag.canton .frame-2 {
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 100vw;
+	height:100vh;
+	z-index: -1;
+	display: block;
+}
+
+.flag.canton iframe {
+	display: none;
+}
+
+.flag.border .frame-1 {
+	position: absolute;
+    top: 50vh;
+    left: 50vw;
+	width: 50vw;
+	height:50vh;
+	z-index: 2;
+	display: block;
+	transform: translate(-50%, -50%);
+}
+
+.flag.border .frame-2 {
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 100vw;
+	height:100vh;
+	z-index: -1;
+	display: block;
+}
+
+.flag.border iframe {
+	display: none;
+}
+
+.flag.border-circle .frame-1 {
+	position: absolute;
+    top: 50vh;
+    left: 50vw;
+	width: 50vw;
+	height:50vw;
+	z-index: 2;
+	display: block;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+}
+
+.flag.border-circle .frame-2 {
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 100vw;
+	height:100vh;
+	z-index: -1;
+	display: block;
+}
+
+.flag.border-circle iframe {
+	display: none;
+}
+
+.flag.bi-canton iframe {
+	flex:0 0 100%;
+	height: 50vh;
+}
+
+.flag.bi-canton .frame-3 {
+	position: absolute;
+    top: 50vh;
+    left: 50vw;
+	width: 50vw;
+	height:50vw;
+	z-index: 2;
+	display: block;
+	transform: translate(-50%, -50%);
+}
+
+.flag.bi-canton .frame-4 {
+	display: none;
+}
+
+.urls {
+	position: fixed;
+	bottom:0;
+	left:0;
+	background-color:#000;
+	color:#fff;
+	font-size:16px;
+	height:48px;
+	overflow:scroll;
+}
+
