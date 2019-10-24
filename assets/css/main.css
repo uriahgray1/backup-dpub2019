@@ -18,12 +18,17 @@ a {
 		font-size: 50px;
 		z-index: 99;
 		background-color: lightgray;
+		display: block;
 	}
 
 	.notice span {
 		padding: 20px;
 		display: block;
 	}
+}
+
+.notice {
+	display: none;
 }
 
 .intro {
