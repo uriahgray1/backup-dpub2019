@@ -22,7 +22,7 @@ a {
 	text-align: center;
 }
 
-.main {
+.description {
 	width: 60%;
 	margin: auto;
 }
@@ -36,5 +36,30 @@ img {
 	margin: auto;
 	display: block;
 	margin-top: 20px;
+}
+
+
+.draggable {
+	background-color: red;
+	width:100px;
+	height:100px;
+	position:fixed;
+	cursor: move;
+}
+
+.drag1 {
+	background-color: blue;
+	top:200px;
+	left:400px;
+}
+
+.drag2 {
+	bottom:200px;
+	right:400px;
+}
+
+.drag3 {
+	bottom:50px;
+	right:600px;
 }
 
