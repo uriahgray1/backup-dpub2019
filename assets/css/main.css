@@ -8,7 +8,7 @@ a {
 	
 }
 
- @media only screen and (max-width: 700px) {
+ @media  (max-width: 700px) {
 	.notice {
 		position: fixed;
 		top:0px;
@@ -33,18 +33,26 @@ a {
 
 .intro {
 	padding: 10px;
-	font-size: 24px;
+	font-size: 20px;
+	margin-top: 150px;
+}
+
+.footer {
+	padding-left: 10px;
+	padding-bottom: 10px;
 	margin-top: 150px;
 }
 
 .title {
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-bottom: 8px;
 	font-size: 9vw;
 	padding-top: 10px;
 	text-align: center;
 	position: fixed;
 	top: 10px;
+	left: 10px;
 	background-color: yellow;
 }
 
@@ -60,8 +68,8 @@ a {
 	width:100%;
 	border-top: 4px solid;
 	text-decoration: none;
-	text-transform: uppercase;
-	padding-top: 10px;
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
 
 .websites a:hover {
