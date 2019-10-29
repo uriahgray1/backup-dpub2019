@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+  <style type="text/css">
+ 
+.playing {
+
+}
+
+.pattern .key {
+  display: none;
+}
+.pattern .key.playing {
+  display: block;
+}
+
+.key img {
+  height: 0px;
+  transition: 2s;
+}
+
+.key.playing img {
+  height: 100%;
+  transition: 2s;
+}
+
+.pattern {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.four {
+
+}
+
+.one .key {
+  flex:0 0 100%;
+  height:100vh;
+}
+
+.two .key {
+  flex:0 0 50%;
+  height:100vh;
+}
+
+.three .key {
+  flex:0 0 33.33%;
+  height:100vh;
+}
+
+.four .key {
+  flex:0 0 50%;
+  height:50vh;
+}
+
+.pattern img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 200px;
+}
+
+html {
+  background-color: black;
+}
+/*
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top:0px;
+  left:0px;
+  z-index: 10;
+  mix-blend-mode: screen;
+}*/
+
+  </style>
+
+  <script type="text/javascript">
+  
+  
+
+  function playSound (e) {
+    const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+    const patterns = document.querySelector('.pattern');
+    key.classList.add('playing');
+     if(e.keyCode === 8) {
+     patterns.classList.remove('four', 'three', 'two', 'one');
+    }
+  }
+
+  function endSound (e) {
+    const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+    const keys = document.querySelector('.key');
+    const patterns = document.querySelector('.pattern');
+
+    const removePattern = function() {
+      patterns.classList.remove('four', 'three', 'two', 'one');
+    }
+    if(!key)
+      return;
+
+    if(e.keyCode === 49) { 
+      removePattern();
+      patterns.classList.add('one');
+      console.log(e.keyCode);
+     }
+
+    if(e.keyCode === 50) {
+      removePattern();
+      patterns.classList.add('two');
+      console.log(e.keyCode);
+     }
+
+    if(e.keyCode === 51) {
+      removePattern(); 
+      patterns.classList.add('three');
+      console.log(e.keyCode);
+     }              
+
+    if(e.keyCode === 52) {
+      removePattern(); 
+      patterns.classList.add('four');
+      console.log(e.keyCode);
+     }
+
+    if(e.keyCode === 8) {
+     keys.classList.remove('four');
+     console.log(e.keyCode);
+    }
+    // key.classList.add("key");
+      key.classList.remove('playing');
+  }
+
+  window.addEventListener('keydown', playSound)
+  window.addEventListener('keyup', endSound)  
+  </script>
+
+  <script type="text/javascript">
+    // window.onload = function() {
+
+    
+    // var constraints = { audio: false,
+    //                     video: true};
+
+    
+    // navigator.mediaDevices.getUserMedia(constraints).then(function(mediaStream){
+    //     var video = document.querySelector('video');
+    //     video.srcObject = mediaStream;
+    //     video.play();
+    // }).catch(function(err){
+    //     console.log("yikes, and err!" + err.message);
+    // });
+
+// }
+  </script>
+
+</head>
+<body>
+
+    <!-- <video></video> -->
+
+  <div class="pattern">
+    <!-- s -->
+    <div data-key="83" class="key">
+      <img src="https://d2w9rnfcy7mm78.cloudfront.net/1190831/original_203cdf0985a9df706f13cb48dd448280.gif?1502492786?bc=1">
+    </div>
+    <!-- d -->
+    <div data-key="68" class="key">
+      <img src="https://d2w9rnfcy7mm78.cloudfront.net/2433698/large_cced0490172fdbfdc4c31a6dfa0058d6.png?1531685093?bc=1">
+    </div>
+    <!-- f -->
+    <div data-key="70" class="key">
+      <img src="https://d2w9rnfcy7mm78.cloudfront.net/416061/large_0dd3d6093e7509aa592d49962dbe138d.png?1438567336?bc=1">
+    </div>
+    <!-- g -->
+    <div data-key="71" class="key">
+      <img src="https://d2w9rnfcy7mm78.cloudfront.net/949983/large_1c6aace2f8b0b28ad896f0aff98ff850.jpg?1490717896?bc=1">
+    </div>
+
+  </div>
+
+
+  <div class="keys">
+    <div data-key="49" class="key">
+      <kbd>1</kbd>
+    </div>    
+    <div data-key="50" class="key">
+      <kbd>2</kbd>
+    </div>
+    <div data-key="51" class="key">
+      <kbd>3</kbd>
+    </div>    
+    <div data-key="52" class="key">
+      <kbd>4</kbd>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+    </div>
+    <div data-key="8" class="key">
+      <kbd>D</kbd>
+    </div>    
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+    </div>
+    <div data-key="71" class="key">
+      <kbd>G</kbd>
+    </div>
+    <div data-key="72" class="key">
+      <kbd>H</kbd>
+    </div>
+    <div data-key="74" class="key">
+      <kbd>J</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div data-key="75" class="key">
+      <kbd>K</kbd>
+      <span class="sound">tom</span>
+    </div>
+    <div data-key="76" class="key">
+      <kbd>L</kbd>
+      <span class="sound">tink</span>
+    </div>
+  </div>
+
+  <audio data-key="65" src="sounds/clap.wav"></audio>
+  <audio data-key="83" src="sounds/hihat.wav"></audio>
+  <audio data-key="68" src="sounds/kick.wav"></audio>
+  <audio data-key="70" src="sounds/openhat.wav"></audio>
+  <audio data-key="71" src="sounds/boom.wav"></audio>
+  <audio data-key="72" src="sounds/ride.wav"></audio>
+  <audio data-key="74" src="sounds/snare.wav"></audio>
+  <audio data-key="75" src="sounds/tom.wav"></audio>
+  <audio data-key="76" src="sounds/tink.wav"></audio>
+</body>
+</html>
