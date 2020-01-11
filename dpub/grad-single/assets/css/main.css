@@ -1,0 +1,226 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color: black;
+}
+
+a {
+	color:red;
+}
+
+.invert {
+	filter: invert(100);
+}
+
+.br {
+	border-radius: 100px;
+}
+
+
+
+.g1 {
+	background: linear-gradient(0deg, rgba(0,0,0,1) 26%, rgba(255,255,255,1) 42%, rgba(255,255,255,1) 52%, rgba(0,0,0,1) 69%, rgba(255,255,255,1) 84%);
+}
+
+.g2 {
+	background: linear-gradient(0deg, rgba(0,0,0,1) 26%, rgba(255,255,255,1) 42%, rgba(0,0,0,1) 77%);
+}
+
+.g3 {
+	background: radial-gradient(circle, rgba(255,255,255,1) 67%, rgba(0,0,0,1) 77%);
+}
+
+.g4 {
+	background: linear-gradient(0deg, rgba(255,255,255,1) 5%, rgba(0,0,0,1) 12%, rgba(255,255,255,1) 19%, rgba(0,0,0,1) 37%, rgba(255,255,255,1) 42%, rgba(255,255,255,1) 46%, rgba(0,0,0,1) 69%, rgba(255,255,255,1) 84%);
+}
+
+.g5 {
+	background:
+	repeating-radial-gradient(
+		circle at 0 0,
+		#fff,
+		#000 200px
+	);
+}
+
+.g6 {
+	background:
+	repeating-radial-gradient(
+		circle at 0 0,
+		#000,
+		#fff 150px,
+		#000 300px
+	);
+}
+
+.g7 {
+	background-image:
+	repeating-linear-gradient(
+		45deg,
+		black,
+		white 50px,
+		black 100px,
+		white 200px
+	);
+}
+
+.g8 {
+	background-image:
+	repeating-linear-gradient(
+		-45deg,
+		white,
+		black 150px,
+		white 200px
+	);
+}
+
+.g9 {
+	background: linear-gradient(196deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 13%, rgba(0,0,0,1) 23%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 84%);
+}
+
+.g10 {
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 13%, rgba(0,0,0,1) 23%, rgba(255,255,255,1) 29%, rgba(0,0,0,1) 41%, rgba(255,255,255,1) 84%);
+}
+
+.g11 {
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 5%, rgba(255,255,255,1) 24%, rgba(0,0,0,1) 41%);
+}
+
+.g12 {
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 16%, rgba(0,0,0,1) 41%);
+}
+
+.g13 {
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 16%, rgba(0,0,0,1) 41%);
+}
+
+.g14 {
+	background: radial-gradient(circle, rgba(0,0,0,1) 11%, rgba(255,255,255,1) 21%, rgba(0,0,0,1) 47%, rgba(255,255,255,1) 76%, rgba(0,0,0,1) 87%);
+}
+
+.g15 {
+	background: linear-gradient(45deg, rgba(0,0,0,1) 11%, rgba(255,255,255,1) 43%, rgba(0,0,0,1) 47%, rgba(255,255,255,1) 76%, rgba(0,0,0,1) 87%);
+}
+
+.g16 {
+background: linear-gradient(45deg, rgba(0,0,0,1) 11%, rgba(0,0,0,1) 17%, rgba(255,255,255,1) 24%, rgba(255,255,255,1) 76%, rgba(0,0,0,1) 87%);
+}
+
+.g17 {
+	background: linear-gradient(0deg, rgba(0,0,0,1) 11%, rgba(255,255,255,1) 18%, rgba(0,0,0,1) 24%, rgba(255,255,255,1) 33%, rgba(0,0,0,1) 57%, rgba(255,255,255,1) 85%);
+}
+
+/* .flag div {
+	width:100vw;
+	height: 100vh;
+	position: fixed;
+	top:0;
+	left:0;
+}
+
+.a {
+
+}
+
+.b {
+	transform:scale(0.9);
+	z-index: 2;
+}
+
+.c {
+
+	transform:scale(0.8);
+	z-index: 3;
+}
+
+.e {
+
+	transform:scale(0.68);
+	z-index: 4;
+} */
+
+.a {
+	width:10vw;
+	height:100vh;
+	position: fixed;
+	left:0;
+	top:0;
+}
+
+.b {
+	width:10vw;
+	height:100vh;
+	position: fixed;
+	right:0;
+	top:0;
+}
+
+.c {
+	width:100vw;
+	height:10vw;
+	position: fixed;
+	right:0;
+	top:0;
+}
+
+.d {
+	width:100vw;
+	height:10vw;
+	position: fixed;
+	right:0;
+	bottom:0;
+}
+
+.e {
+	width:80vw;
+	height:10vw;
+	position: fixed;
+	left:10vw;
+	top:10vw;
+}
+
+.f {
+	width:80vw;
+	height:10vw;
+	position: fixed;
+	left:10vw;
+	bottom:10vw;
+}
+
+.g {
+	width:10vw;
+	height:100vh;
+	z-index: -1;
+	position: fixed;
+	left:10vw;
+	top:10vw;
+}
+
+.h {
+	width:10vw;
+	height:100vh;
+	z-index: -1;
+	position: fixed;
+	right:10vw;
+	top:10vw;
+}
+
+.i {
+
+}
+
+.i1 {
+	z-index: 1;
+}
+
+.i2 {
+	z-index: 2;
+}
+
+.i3 {
+	z-index: 3;
+}
+
+.i-1 {
+	z-index: -1;
+}
